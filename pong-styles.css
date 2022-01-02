@@ -14,17 +14,18 @@ body {
   border: 5px solid black;
   left: 0;
   position: absolute;
+  background-image: url("factorybackground.gif");
   background-size: cover;
 }
 
 #left-paddle {
-  background-color: black;
+  background-color: DimGray;
   left: 10px;
   height: 25px;
 }
 
 #right-paddle {
-  background-color: red;
+  background-color: DimGray;
   right: 10px;
 }
 
@@ -75,7 +76,7 @@ body {
 .ball {
   width: 20px;
   height: 20px;
-  background-color: black;
+  background-color: Silver;
   border-radius: 10px;
   position: absolute;
   left: 50px;
@@ -85,6 +86,7 @@ body {
 .score {
   position: absolute;
   font-family: Arial, Helvetica, sans-serif;
+  color: White;
   top: 0;
 }
 
