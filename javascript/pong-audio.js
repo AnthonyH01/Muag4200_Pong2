@@ -49,7 +49,7 @@ soundArray.push(wallSound); //add sound to list of sounds
 export var paddleSound = new soundFile("PaddleBounce.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("tap-percussive.mp3");
+export var scoreSound = new soundFile("PongScore.mp3");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("FactoryAmbience.mp3");
